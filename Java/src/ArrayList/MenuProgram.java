@@ -38,7 +38,6 @@ public class MenuProgram {
 						int rem = sc.nextInt();
 						
 						obj.remove(obj.indexOf(rem));
-//						obj.remove(sc.nextInt());
 						System.out.println("value removed successfully...\n");
 						}
 						catch(IndexOutOfBoundsException e) {
